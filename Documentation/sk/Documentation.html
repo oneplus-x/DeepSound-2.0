@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <head>
+      <title>DeepSound dokumentácia</title>
+      <link href="../Documentation_files/MainStyle.css" media="screen" rel="stylesheet"
+          type="text/css">
+        <style type="text/css">
+          /* <![CDATA[ */#head_Menu1
+        {
+            background-color: White;
+        }
+        #head_Menu1 img.icon
+        {
+            border-style: none;
+            vertical-align: middle;
+        }
+        #head_Menu1 img.separator
+        {
+            border-style: none;
+            display: block;
+        }
+        #head_Menu1 ul
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+        #head_Menu1 ul.dynamic
+        {
+            background-color: #F7F6F3;
+            z-index: 1;
+            margin-left: 2px;
+        }
+        #head_Menu1 a
+        {
+            color: #7C6F57;
+            font-family: Verdana;
+            font-size: 1em;
+            text-decoration: none;
+            white-space: nowrap;
+            display: block;
+        }
+        #head_Menu1 a.static
+        {
+            padding: 2px 5px 2px 5px;
+            text-decoration: none;
+        }
+        #head_Menu1 a.popout
+        {
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 14px;
+        }
+        #head_Menu1 a.dynamic
+        {
+            padding: 2px 5px 2px 5px;
+            text-decoration: none;
+        }
+        #head_Menu1 a.static.selected
+        {
+            color: #8C7F67;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        #head_Menu1 a.dynamic.selected
+        {
+            background-color: #5D7B9D;
+            text-decoration: none;
+        }
+        #head_Menu1 a.static.highlighted
+        {
+            color: White;
+            background-color: #7C6F57;
+        }
+        #head_Menu1 a.dynamic.highlighted
+        {
+            color: White;
+            background-color: #7C6F57;
+        }
+        /* ]]> */
+        </style>
+      </head>
+    <body>
+      <div id="page">
+        <div id="headerPanel">
+          <ul id="menubar">
+            <li>
+              <a id="LinkBtnDocumentation" href="http://jpinsoft.net/DeepSound/">DeepSound</a>
+            </li>
+          </ul>
+        </div>
+        <div id="contentPanel">
+          <h2>
+            Dokumentácia
+          </h2>
+          <br />
+          <p>
+            <br />
+            <a href="Documentation.html#1" class="level1Href">1 &nbsp DeepSound 2.0</a>
+            <br />
+            <br />
+            <a href="Documentation.html#1.1" class="level2Href">
+              1.1 Ukrytie dát do nosných audio
+              súborov
+            </a>
+            <br />
+            <a href="Documentation.html#1.2" class="level2Href">
+              1.2 Extrakcia ukrytých dát z audio
+              súborov, alebo z audio CD
+            </a>
+            <br />
+            <a href="Documentation.html#1.3" class="level2Href">
+              1.3 Vytvorenie audio CD s tajnými
+              dátami
+            </a>
+            <br />
+            <a href="Documentation.html#1.4" class="level2Href">1.4 Kvalita výstupného audio záznamu</a>
+            <br />
+            <a href="Documentation.html#1.5" class="level2Href">1.5 Konverzia audio súborov</a>
+          </p>
+          <br />
+          <br />
+          <h2 id="1">
+            1 DeepSound 2.0
+          </h2>
+          <br />
+          <br />
+          <h3 id="1.1">
+            1.1 Ukrytie dát do nosných audio súborov
+          </h3>
+          <br />
+          <p>
+            Pre ukrytie dát do nosných audio súborov postupujte nasledovne:
+          </p>
+          <ul class="clasicUl">
+            <li>
+              Kliknutím na tlačidlo 'Otvoriť nosné súbory (F2)' pridajte audio súbory, do ktorých chcete
+              ukryť tajné súbory. Nosné audio súbory môžete pridať aj presunutím myšou priamo
+              do zoznamu nosných audio súborov.
+            </li>
+            <li>
+              Kliknite na tlačidlo 'Pridaj tajné súbory (F3)', alebo myškou presuňte tajné súbory do
+              zoznamu tajných súborov v spodnej časti aplikácie.
+            </li>
+          </ul>
+          <img src="Documentation_files/AddSecretData.png" alt="CreateCategory" width="760" />
+          <ul class="clasicUl">
+            <li>Ďalej kliknite na 'Ukryť tajné súbory', alebo stlačte F4</li>
+          </ul>
+          <img src="Documentation_files/EncodeSecretData1.png" alt="CategoryDetail" width="760" />
+          <ul class="clasicUl">
+            <li>
+              V dialógovom okne 'Ukryť tajné súbory' môžete zvoliť výstupný formát audio súboru.
+              DeepSound nepodporuje výstupný formát wma. Ak si želáte ukryť tajné dáta do wma,
+              ukryte tajné dáta najskôr do súboru wav a následne skonvertujte pomocou externého
+              programu (napr. Windows Media Encoder) tento súbor do formátu wma <b>lossless</b>.
+            </li>
+            <li>
+              Pred vykonaním ukrytia súborov do nosného audio súboru môžete zap./vyp. šifrovanie
+              ukrývaných súborov s použitím bezpečnej šifry AES 256. V prípade, že chcete zmeniť
+              výstupný adresár, použite tlačidlo 'Nastavenia' v hlavnom menu aplikácie.
+            </li>
+            <li>
+              Kliknutím na tlačidlo 'Ukryť tajné súbory' spustíte tvorbu výstupného audio súboru
+              s ukrytými súbormi.
+            </li>
+          </ul>
+          <img src="Documentation_files/EncodeSecretData2.png" alt="CategoryDetail" width="760" />
+          <br />
+          <br />
+          <br />
+          <h3 id="1.2">
+            1.2 Extrakcia ukrytých dát z audio súborov, alebo z audio CD
+          </h3>
+          <br />
+          <p>
+            Pre extrakciu ukrytých dát z audio súborov, alebo priamo z audio CD stôp postupujte
+            nasledovne:
+          </p>
+          <ul class="clasicUl">
+            <li>
+              Kliknutím na tlačidlo 'Otvoriť nosné súbory (F2)' pridajte audio súbory (wav, flac, ape,
+              wma lossless), prípadne audio CD stopy z ktorých chcete extrahovať tajné súbory.
+              Po označení nosného audio súboru aplikácia vykoná analýzu a zobrazí zoznam s ukrytými
+              súbormi. Ak sú ukryté súbory šifrované, je potrebné najskôr zadať heslo, bez ktorého
+              sa ukryté súbory nezobrazia. Opätovnú analýzu súboru vykonáte znovu dvojklikom na
+              požadovanom súbore.
+            </li>
+          </ul>
+          <img src="Documentation_files/ExtractSecretData.png" alt="CreateAlbum" width="760" />
+          <ul class="clasicUl">
+            <li>
+              Ďalej kliknite na 'Extrahovať súbory', alebo stlačte F5. Extrahované súbory sa uložia
+              do výstupného adresára, ktorý je možné zmeniť cez Nastavenia.
+            </li>
+          </ul>
+          <img src="Documentation_files/ExtractSecretData2.png" alt="AlbumDetail" width="760" />
+          <br />
+          <br />
+          <br />
+          <h3 id="1.3">
+            1.3 Vytvorenie audio CD s tajnými dátami
+          </h3>
+          <br />
+          <p>
+            Program DeepSound neumožňuje priame vytváranie audio CD s ukrytými tajnými súbormi.
+            V takomto prípade je potrebné tajné dáta ukryť najskôr do súboru ‘.wav‘, ‘.flac‘
+            alebo ‘.ape‘ a následne z týchto modifikovaných súborov pomocou externého programu
+            vytvoriť zvukové (audio) CD.
+            <br />
+            <br />
+            <b>
+              UPOZORNENIE : pri vytváraní audio CD externým programom nesmie byť nosný audio súbor
+              wav, flac alebo ape nijako upravovaný (napr. normalizáciou, alebo doplňovaním začiatočnej
+              'tichej' sekvencie), pretože by došlo k poškodeniu tajných súborov a nebolo by možné
+              ich z audio CD extrahovať.
+            </b>
+          </p>
+          <br />
+          <br />
+          <h3 id="1.4">
+            1.4 Kvalita výstupného audio záznamu
+          </h3>
+          <br />
+          <p>
+            Kvalitu výstupného audio záznamu môžete meniť výberom z možností v časti 'Kvalita
+            výstupného súboru'. Od toho, akú kvalitu výstupného audio súboru zvolíte, závisí
+            množstvo tajných dát, ktoré môžete ukryť. Pri vyššej kvalite ukryjete menšie množstvo
+            tajných dát a opačne. V nasledovnej tabuľke sú uvedené približné hodnoty množstva
+            tajných dát v závislosti od nastavenej kvality výstupného audio záznamu.
+          </p>
+          <ul class="clasicUl">
+            <li>
+              <b>Nízka kvalita výstupného audio záznamu</b> 1/2 z nosného súboru (pri 100MB súbore
+              wav - 50MB tajných súborov)
+            </li>
+            <li>
+              <b>Stredná kvalita výstupného audio záznamu</b> 1/4 z nosného súboru (pri 100MB
+              súbore wav - 25MB tajných súborov)
+            </li>
+            <li>
+              <b>Vysoká kvalita výstupného audio záznamu</b> 1/8 z nosného súboru (pri 100MB súbore
+              wav - 12,5MB tajných súborov)
+            </li>
+          </ul>
+          <img src="Documentation_files/Settings.png" alt="AddNewVersion" width="760" />
+          <br />
+          <br />
+          <h3 id="1.5">
+            1.5 Konverzia audio súborov
+          </h3>
+          <br />
+          <ul class="clasicUl">
+            <li>V hlavnom menu kliknite na 'Audio konvertor'</li>
+          </ul>
+          <img src="Documentation_files/AudioConverter2.png" alt="AddNewVersion" width="760" />
+          <br />
+          <br />
+          <ul class="clasicUl">
+            <li>
+              Pre pridanie vstupných audio súborov kliknite na 'Pridať súbory (F2)', alebo myškou presuňte
+              požadované audio súbory do zoznamu. Podporované vstupné audio súbory sú:
+              <p>
+                <br />
+                <b>
+                  - Waveform Audio File Format (.wav)
+                  <br />
+                  - Free Lossless Audio Codec (.flac)
+                  <br />
+                  - Windows media audio (.wma)
+                  <br />
+                  - MPEG audio layer-3 (.mp3)
+                  <br />
+                  - Monkey's Audio (.ape)
+                </b>
+              </p>
+              <br />
+            </li>
+            <li>
+              Zvoľte výstupný formát. Podporované výstupné audio formáty sú:
+              <p>
+                <br />
+                <b>
+                  - Waveform Audio File Format (.wav)
+                  <br />
+                  - Free Lossless Audio Codec (.flac)
+                  <br />
+                  - MPEG audio layer-3 (.mp3)
+                  <br />
+                  - Monkey's Audio (.ape)
+                </b>
+              </p>
+              <br />
+            </li>
+            <li>
+              Kliknite na tlačidlo 'Konvertovať (F3)' a počkajte na dokončenie konvertovania súborov.
+              Vytvorené súbory nájdete vo výstupnom adresári, ktorý môžete zmeniť v nastaveniach.
+            </li>
+          </ul>
+          <img src="Documentation_files/AudioConverter1.png" alt="AddNewVersion" width="760" />
+          <br />
+          <br />
+        </div>
+      </div>
+      <div id="footerPanel">
+        <div class="footerBox">
+          Jospin design
+        </div>
+      </div>
+      <p class="marginTop50">
+        &nbsp;
+      </p>
+    </body>
+  </html>

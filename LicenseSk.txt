@@ -1,0 +1,111 @@
+﻿LICENČNÁ DOHODA - DeepSound 2.0
+============================================================
+
+Táto licencia predstavuje dohodu medzi 
+Vami a Autorom(Jospin - Jozef Bátora). Prosím prečítajte si 
+pozorne znenie tejto licencie.
+
+Inštaláciou tohto produktu súhlasíte s podmienkami
+licencie. Ak nesúhlasíte s akýmkoľvek bodom tejto licencie,
+neinštalujte produkt.
+
+Copyright (c) 2008-2015, Jozef Bátora 
+Všetky práva vyhradené.
+
+
+SOFTVÉR
+============================================================
+
+DeepSound 2.0(ďalej len "Softvér") obsahuje tieto
+súčasti:
+
+   - Documentation adresár s celým obsahom
+   - Modules/Converter.dll
+   - Modules/FragileStg.dll
+   - Sk adresár s celým obsahom
+   - Common.dll
+   - DeepSound.exe
+   - Steganography.dll
+   - Utils.dll	
+   - WPFUtils.dll
+
+
+ZÁRUKA
+============================================================
+
+Tento Softvér je voľne šíriteľný bez poplatku a nie je 
+poskytovaný so žiadnymi zárukami. Softvér je distribuovaný
+"tak ako je", bez zahrnutých záruk. V žiadnom prípade Autor
+nezodpovedá za prípadné priame aj nepriame škody spojené s
+používaním Softvéru, napríklad strata dát, poškodenie
+hardvéru atď.
+
+
+PODMIENKY POUŽITA
+============================================================
+
+Softvér je distribuovaný ako voľne šíriteľný program za
+týchto podmienok:
+
+   - nemôžete prenajímať, alebo predávať akúkoľvek časť 
+     Softvéru. Žiadny zo súborov Softvéru nemôžete 
+     distribuovať pre účely zisku, alebo ako súčasť iného
+     softvéru bez písomného povolenia Autora.
+
+   - nemôžete vykonávať dekompiláciu, ani sa inak pokúšať 
+     získať zdrojové kódy Softvéru.
+
+   - redistribúcia všetkých súborov Softvéru je povolená iba
+     v pôvodnom stave originálnych(nepozmenených) súborov.
+     Úprava a následná distribúcia súborov softvéru je možná
+     iba s písomným súhlasom Autora.
+   
+   - môžete voľne šíriť a používať Softvér na použitie doma
+     ale aj v spoločnosti/organizácii v nepozmenenom stave.
+
+
+Ďakujem, že používate DeepSound!
+
+DeepSound
+Web:	http://jpinsoft.net/DeepSound
+E-mail: info@jpinsoft.net
+        support@jpinsoft.net
+
+
+Tento produkt používa FLAC encoder/decoder:
+Flac.exe 1.2.1 by Josh Coalson
+============================================================
+ Flac
+ Copyright (c) 2000-2008 Josh Coalson
+ http://flac.sourceforge.net/index.html
+ 
+
+Tento produkt používa C Sharp Ripper:
+Ripper.dll v 1.0.2857.31936 by Idael Cardoso
+============================================================
+ C Sharp Ripper
+ http://www.codeproject.com/Articles/5458/C-Sharp-Ripper
+
+
+Tento produkt používa knižnicu Jospin.MediaLib.dll, ktorá
+je založená na vynikajúcom open source projekte - NAudio
+============================================================
+ NAudio
+ http://naudio.codeplex.com/
+
+ Jospin.MediaLib.dll je distribuovaná pod licenciou
+ Microsoft Public License (Ms-PL)
+
+
+Tento produkt používa LAME MPEG Audio Layer III (MP3) 
+encoder, lame_enc.dll 
+============================================================
+ LGPL (GNU Lesser General Public License)
+ http://lame.sourceforge.net/
+
+
+Tento produkt používa Monkey's Audio lossless audio 
+compressor, MACDll.dll v 3.99
+============================================================
+ Copyright (c) ©2000-2015 by Matthew T. Ashland
+ http://monkeysaudio.com/license.html

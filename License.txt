@@ -1,0 +1,111 @@
+﻿SOFTWARE LICENSE AGREEMENT - DeepSound 2.0
+============================================================
+
+License agreement is a legal agreement between you and 
+Author(Jospin - Jozef Bátora). Please read it carefully.
+
+You agree to be bound by the terms of this license by 
+installing this product. If you do not agree with any of 
+the following terms and conditions, do not install the 
+software.
+
+Copyright (c) 2008-2015, Jozef Bátora 
+All rights reserved.
+
+
+SOFTWARE
+============================================================
+
+DeepSound 2.0 Software includes the following software
+and documentation:
+
+   - Documentation folder with all content
+   - Modules/Converter.dll
+   - Modules/FragileStg.dll
+   - Sk folder with all content
+   - Common.dll
+   - DeepSound.exe
+   - Steganography.dll
+   - Utils.dll	
+   - WPFUtils.dll
+
+
+DISCLAIMER OF WARRANTY
+============================================================
+
+The Software is provided to you at no charge and has made 
+no express warranties(oral or written). The Software is 
+provided "as-is", without any express or implied warranty.
+Without even the implied warranty of merchantability,
+fitness and data loss for a particular purpose. In no event
+shall the Author be held liable for any, direct or 
+indirect, damages arising from the use of the Software.
+
+
+TERMS OF USE
+============================================================
+
+The Software is being distributed as Freeware:
+
+   - you may not rent or sell any part of the Software. 
+     None of the Software's files may be redistributed for 
+     profit or as part of another Software package without
+     express written permission of the Author.
+
+   - you may not reverse engineer, decompile, or disassemble
+     the Software.
+
+   - all redistributions of the Software's files must be in
+     their original, unmodified form. Distributions of 
+     modified versions of the files is not permitted without
+     express written permission of the Author.
+
+   - you may distribute and use the software in original
+     state freely.
+
+
+Thank you for using DeepSound!
+
+DeepSound
+Web:	http://jpinsoft.net/DeepSound
+E-mail: info@jpinsoft.net
+        support@jpinsoft.net
+
+
+This product uses FLAC encoder/decoder:
+Flac.exe 1.2.1 by Josh Coalson
+============================================================
+ Flac
+ Copyright (c) 2000-2008 Josh Coalson
+ http://flac.sourceforge.net/index.html
+ 
+
+This product uses C Sharp Ripper:
+Ripper.dll v 1.0.2857.31936 by Idael Cardoso
+============================================================
+ C Sharp Ripper
+ http://www.codeproject.com/Articles/5458/C-Sharp-Ripper
+
+
+This product uses Jospin.MediaLib.dll, which is based on 
+excellent open source .NET project - NAudio.
+============================================================
+ NAudio
+ http://naudio.codeplex.com/
+
+ Jospin.MediaLib.dll is distributed under 
+ Microsoft Public License (Ms-PL)
+
+
+This product uses LAME MPEG Audio Layer III (MP3) 
+encoder, lame_enc.dll
+============================================================
+ LGPL (GNU Lesser General Public License)
+ http://lame.sourceforge.net/
+
+
+This product uses Monkey's Audio lossless audio compressor:
+Monkey's Audio, MACDll.dll v 3.99
+============================================================
+ Copyright (c) ©2000-2015 by Matthew T. Ashland
+ http://monkeysaudio.com/license.html

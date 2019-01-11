@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <head>
+      <title>DeepSound documentation</title>
+      <link href="Documentation_files/MainStyle.css" media="screen" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          /* <![CDATA[ */#head_Menu1
+        {
+            background-color: White;
+        }
+        #head_Menu1 img.icon
+        {
+            border-style: none;
+            vertical-align: middle;
+        }
+        #head_Menu1 img.separator
+        {
+            border-style: none;
+            display: block;
+        }
+        #head_Menu1 ul
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+        #head_Menu1 ul.dynamic
+        {
+            background-color: #F7F6F3;
+            z-index: 1;
+            margin-left: 2px;
+        }
+        #head_Menu1 a
+        {
+            color: #7C6F57;
+            font-family: Verdana;
+            font-size: 1em;
+            text-decoration: none;
+            white-space: nowrap;
+            display: block;
+        }
+        #head_Menu1 a.static
+        {
+            padding: 2px 5px 2px 5px;
+            text-decoration: none;
+        }
+        #head_Menu1 a.popout
+        {
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 14px;
+        }
+        #head_Menu1 a.dynamic
+        {
+            padding: 2px 5px 2px 5px;
+            text-decoration: none;
+        }
+        #head_Menu1 a.static.selected
+        {
+            color: #8C7F67;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        #head_Menu1 a.dynamic.selected
+        {
+            background-color: #5D7B9D;
+            text-decoration: none;
+        }
+        #head_Menu1 a.static.highlighted
+        {
+            color: White;
+            background-color: #7C6F57;
+        }
+        #head_Menu1 a.dynamic.highlighted
+        {
+            color: White;
+            background-color: #7C6F57;
+        }
+        /* ]]> */
+        </style>
+      </head>
+    <body>
+      <div id="page">
+        <div id="headerPanel">
+          <ul id="menubar">
+            <li>
+              <a id="LinkBtnDocumentation" href="http://jpinsoft.net/DeepSound/">DeepSound</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="contentPanel">
+          <h2>
+            Documentation
+          </h2>
+          <br />
+          <p>
+            <br />
+            <a href="Documentation.html#1" class="level1Href">1 &nbsp DeepSound 2.0</a>
+            <br />
+            <br />
+            <a href="Documentation.html#1.1" class="level2Href">
+              1.1 Hide data into carrier audio
+              file
+            </a>
+            <br />
+            <a href="Documentation.html#1.2" class="level2Href">
+              1.2 Extract secret data from audio
+              file or audio CD track
+            </a>
+            <br />
+            <a href="Documentation.html#1.3" class="level2Href">
+              1.3 Create audio CD with secret
+              data
+            </a>
+            <br />
+            <a href="Documentation.html#1.4" class="level2Href">1.4 Output audio file quality</a>
+            <br />
+            <a href="Documentation.html#1.5" class="level2Href">1.5 How to convert audio files</a>
+          </p>
+          <br />
+          <br />
+          <h2 id="1">
+            1 DeepSound 2.0
+          </h2>
+          <br />
+          <br />
+          <h3 id="1.1">
+            1.1 Hide data into carrier audio file
+          </h3>
+          <br />
+          <p>
+            To hide data into audio file, follow these steps:
+          </p>
+          <ul class="clasicUl">
+            <li>
+              Click to 'Open carrier files (F2)' or drag and drop audio file (flac, wav, wma, mp3,
+              ape) to Carrier audio files list.
+            </li>
+            <li>
+              Click to 'Add secret files (F3)' or drag and drop secret files into the Secret files list on the bottom
+              side of application.
+            </li>
+          </ul>
+          <img src="Documentation_files/AddSecretData.png" alt="CreateCategory" width="760" />
+          <ul class="clasicUl">
+            <li>Press F4 key or click to 'Encode secret files' button.</li>
+          </ul>
+          <img src="Documentation_files/EncodeSecretData1.png" alt="CategoryDetail" width="760" />
+          <ul class="clasicUl">
+            <li>
+              You can choose output audio format (wav, flac or ape). DeepSound does not support
+              wma output format. If you want to hide data into wma, hide secret data into wav
+              file and then use external software such as Windows Media Encoder for convert wav
+              to wma <b>lossless</b> audio format.
+            </li>
+            <li>
+              In 'Encode secret files' dialog window you can turn on/off AES-256 encryption. Modified
+              audio file will be copied to output directory. If you want to change output directory,
+              click to Settings.
+            </li>
+            <li>
+              Click to 'Encode secret files' button to start hiding secret files into carrier
+              audio file.
+            </li>
+          </ul>
+          <img src="Documentation_files/EncodeSecretData2.png" alt="CategoryDetail" width="760" />
+          <br />
+          <br />
+          <br />
+          <h3 id="1.2">
+            1.2 Extract secret data from audio file or audio CD track
+          </h3>
+          <br />
+          <p>
+            To extract secret data from audio file, follow these steps:
+          </p>
+          <ul class="clasicUl">
+            <li>
+              In the Carrier audio files list, select audio file or audio CD track, which contains
+              secret data. If the secret files are encrypted, enter password.
+            </li>
+          </ul>
+          <img src="Documentation_files/ExtractSecretData.png" alt="CreateAlbum" width="760" />
+          <ul class="clasicUl">
+            <li>
+              After DeepSound analyze selected item and display secret files, click to 'Extract
+              secret files' button or press F5 key to extract secret files.
+            </li>
+          </ul>
+          <img src="Documentation_files/ExtractSecretData2.png" alt="AlbumDetail" width="760" />
+          <br />
+          <br />
+          <br />
+          <h3 id="1.3">
+            1.3 Create audio CD with secret data
+          </h3>
+          <br />
+          <br />
+          <p>
+            DeepSound does not support creating audio CD with secret files. To create audio
+            CD, which contains secret data, first create audio file with secret data and then
+            use external software to burn audio file to an audio CD.
+            <br />
+            <br />
+            <b>
+              NOTICE: to prevent secret data corruption while burning audio CD, disable volume
+              normalization and any modifications of source audio files in CD burning software.
+            </b>
+          </p>
+          <br />
+          <br />
+          <h3 id="1.4">
+            1.4 Output audio file quality
+          </h3>
+          <br />
+          <p>
+            You can change the output audio file quality in Secret files panel. When you set
+            low quality, the final output file will contain a lot of background noise, but you
+            can hide most of secret data into audio file and conversely - high quality of output
+            file = less secret data.
+          </p>
+          <ul class="clasicUl">
+            <li>
+              <b>Low quality of output audio file:</b> max. secret data size = 1/2 of carrier
+              audio file (50MB of secret data in 100MB wav file)
+            </li>
+            <li>
+              <b>Normal quality of output audio file:</b> max. secret data size = 1/4 of carrier
+              audio file (25MB of secret data in 100MB wav file)
+            </li>
+            <li>
+              <b>High quality of output audio file</b> max. secret data size = 1/8 of carrier
+              audio file (12,5MB of secret data in 100MB wav file)
+            </li>
+          </ul>
+          <img src="Documentation_files/Settings.png" alt="AddNewVersion" width="760" />
+          <br />
+          <br />
+          <h3 id="1.5">
+            1.5 How to convert audio files
+          </h3>
+          <br />
+          <ul class="clasicUl">
+            <li>Open Audio Converter</li>
+          </ul>
+          <img src="Documentation_files/AudioConverter2.png" alt="AddNewVersion" width="760" />
+          <br />
+          <br />
+          <ul class="clasicUl">
+            <li>
+              To add input audio files use 'Add files (F2)' button. You can also add input audio files
+              by simply dragging them from another program and dropping to DeepSound Audio Converter.
+              Supported input audio formats are:
+              <p>
+                <b>
+                  <br />
+                  - Waveform Audio File Format (.wav)
+                  <br />
+                  - Free Lossless Audio Codec (.flac)
+                  <br />
+                  - Windows media audio lossless (.wma)
+                  <br />
+                  - MPEG audio layer-3 (.mp3)
+                  <br />
+                  - Monkey's Audio (.ape)
+                </b>
+              </p>
+              <br />
+            </li>
+            <li>
+              Choose Output Format. Supported output audio formats are:
+              <p>
+                <b>
+                  <br />
+                  - Waveform Audio File Format (.wav)
+                  <br />
+                  - Free Lossless Audio Codec (.flac)
+                  <br />
+                  - MPEG audio layer-3 (.mp3)
+                  <br />
+                  - Monkey's Audio (.ape)
+                </b>
+              </p>
+              <br />
+            </li>
+            <li>Press 'Convert (F3)' button and wait for a few seconds</li>
+          </ul>
+          <img src="Documentation_files/AudioConverter1.png" alt="AddNewVersion" width="760" />
+          <br />
+          <br />
+        </div>
+
+      </div>
+      <div id="footerPanel">
+        <div class="footerBox">
+          Jospin design
+        </div>
+      </div>
+      <p class="marginTop50">
+        &nbsp;
+      </p>
+    </body>
+  </html>
